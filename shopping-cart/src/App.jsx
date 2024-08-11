@@ -5,9 +5,15 @@ function App() {
 
   return (
 <div>
-<h1 className='text-4xl flex justify-center mt-10 mb-10'>Desserts</h1>
+<h1 className='text-4xl mx-7 mt-10 mb-10 font-bold'>Desserts</h1>
 <Produto />
-
+<Produto />
+<Produto/>
+<Produto/>
+<Produto/>
+<Produto/>
+<Produto/>
+<Produto/>
 </div>
   )
 }
