@@ -1,10 +1,10 @@
-import Waffle from '../Img/Waffle.png'
+import WaffleMobile from '../Img/WaffleMobile.png'
 
 export default function Produto (){
     return(
         <div className='mx-7 mb-10'>
         <div className='grid justify-center justify-items-center '>
-            <img src={Waffle} className='w-[340px] h-52 rounded-xl ' />
+            <img src={WaffleMobile} className='w-[340px] h-52 rounded-xl ' />
             <div className='flex relative bottom-7  '>
             <button className='bg-white w-48 h-14 rounded-full border-amber-800	border-2 text-lg font-semibold '>Add to Cart</button>
         </div>
