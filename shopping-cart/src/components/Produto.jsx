@@ -1,7 +1,7 @@
 import WaffleMobile from '../Img/WaffleMobile.png'
 import ShoppingCart from '../Img/ShoppingCart.png'
 
-export default function Produto (){
+export default function Produto (props){
     return(
         <div className='mx-7 mb-10 '>
         <div className='grid justify-center justify-items-center sm:'>
@@ -11,9 +11,9 @@ export default function Produto (){
         </div>
         </div>
         <div>
-            <h4 className='text-xl font-semibold text-opacity-70 text-orange-950'> Waffle</h4>
-            <p className='text-xl font-bold'>Waffle with Berries</p>
-            <p className='text-xl font-semibold text-orange-700'>$6.50</p>
+            <h4 className='text-xl font-semibold text-opacity-70 text-orange-950'>{props.sobremesa}</h4>
+            <p className='text-xl font-bold'>{props.especificação}</p>
+            <p className='text-xl font-semibold text-orange-700'>{props.preço}</p>
         </div>
 </div>
     )
